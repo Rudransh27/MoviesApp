@@ -1,0 +1,139 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.banner-card{
+  width: 90vw;
+  height: 90vh;
+  margin-inline: auto ;
+  margin-top: 0.5vh;
+  position: relative;
+  color: white;
+}
+
+.banner-img{
+  height: 90vh;
+  width: 90vw;
+  margin-inline: auto ;
+}
+
+.banner-title{
+  top:70vh;
+  left:10vw;
+  position: absolute;
+}
+
+.banner-text{  
+  top:75vh;
+  left:10vw;
+  height: 5rem;
+  width: 60vw;
+  overflow: hidden;
+  position: absolute;
+}
+
+.movies-list{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.movies-card{
+  margin: 1rem;
+  width: 20.5vw;
+  color: white;
+  position: relative;;
+}
+
+.movies-title{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+
+.movies-button{
+  position: absolute;
+  bottom: 2rem;
+}
+
+
+.favourites-geners{
+  padding: 3rem;
+}
+
+.favourites-table{
+  padding: 3rem;
+  overflow: auto;
+}
+
+
+@media screen and (max-width:800px){
+  .banner-card{
+    height:50vh;
+
+  }
+  .banner-img{
+    height: 50vh;
+  }
+ 
+  .banner-title{
+    font-size: larger;
+    height: 10vh;
+    left: 3vw;
+ 
+  }
+  
+  .banner-text{
+    height: 15vh;
+    left: 3vw;
+  }
+
+  .movies-card{
+    width: 40vw;
+  }
+
+  .movies-button{
+    width: 80%;
+  }
+}
+
+.po{
+  cursor: pointer;
+}
+
